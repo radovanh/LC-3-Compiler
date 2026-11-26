@@ -22,6 +22,16 @@ and ports to two more machines.
 yet. LC-3 sources written for the PC-1262 compile unchanged on the other machines; only the screen statements
 (`CURSOR`, `PEEK`/`POKE`, `CLS`, `GRAD`, ...) differ because the displays differ. See the device READMEs.
 
+## Documentation
+
+- [LC-3_User_Manual.md](LC-3_User_Manual.md): how to use the compiler, with all commands and syntax.
+- [image/LC-3_jap2eng.pdf](image/LC-3_jap2eng.pdf): scans of the original magazine article with the source listings and
+  the description of LC-3 (17 pages, Japanese text with an English translation laid over it). The pages show the
+  *Pocket Computer Journal* ("PJ", ポケコンジャーナル, published by Kogakusha) logo. The article is the one from
+  **PJ 1989/06**, "Compiler for PC-1261/62 LC-3"; it also contains the listing of IMADOKI BLOCK 2 (PJ 1990/06) and
+  refers to LUMMY-BAHN (PJ 1988/02) and the "TY Compiler" (game "Reverse"). The issue dates come from the article
+  list of the original repository and from the text of the scans; the exact page numbers are not stated here.
+
 ## Contents
 
 | Folder / file | What it is |
