@@ -1,0 +1,21 @@
+# Local development material (analysis, tests, helper tools): kept on disk, not published
+analysis/
+tests/
+tools/
+
+# Original files of the PC-1261/1262 article, needed by the local tests only
+LC-3.bin
+lummy.txt
+sample.txt
+patch.txt
+
+# Build outputs: only the finished binaries are published
+build/*
+!build/lc3_1262.bin
+!build/lc3_1350.bin
+!build/lc3_1360_16k.bin
+!build/lc3_1360_8k.bin
+!build/lc3_1360_32k.bin
+
+__pycache__/
+*.pyc
